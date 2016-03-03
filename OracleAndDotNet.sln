@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{218574D1-FF94-4B95-8577-A6D58C11C315}") = "HR", "HR\HR.oradbproj", "{C3170E46-6654-4229-9B13-FA815F3DDBB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSample", "HRSample\HRSample.csproj", "{ADF09EF1-C6C7-442F-9953-81054B0C49AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

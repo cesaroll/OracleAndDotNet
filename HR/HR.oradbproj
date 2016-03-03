@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProductVersion>12.1.0.2</ProductVersion>
+    <ProjectGuid>c3170e46-6654-4229-9b13-fa815f3ddbb2</ProjectGuid>
+    <DBVERSION>
+    </DBVERSION>
+    <DEFAULTSCHEMANAME>
+    </DEFAULTSCHEMANAME>
+    <AssemblyName>HR</AssemblyName>
+    <Name>HR</Name>
+    <RootNamespace>HR</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <DBRefs Include="Database References\" />
+    <Folder Include="Functions\" />
+    <Folder Include="Packages\" />
+    <Folder Include="Procedures\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Security\" />
+    <Folder Include="Security\Permissions\" />
+    <Folder Include="Security\Roles\" />
+    <Folder Include="Security\Users\" />
+    <Folder Include="Sequences\" />
+    <Folder Include="Synonyms\" />
+    <Folder Include="Tables\" />
+    <Folder Include="Tables\Relational Tables" />
+    <Folder Include="Tables\Object Tables" />
+    <Folder Include="Tables\XML Tables" />
+    <Folder Include="User Defined Types\" />
+    <Folder Include="User Defined Types\Nested Tables\" />
+    <Folder Include="User Defined Types\Objects\" />
+    <Folder Include="User Defined Types\VARRAYs\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Relational Views" />
+    <Folder Include="Views\Object Views" />
+    <Folder Include="Views\XML Views" />
+    <Folder Include="Views\Materialized Views" />
+    <Folder Include="XML Schemas\" />
+    <Folder Include="AQ\" />
+    <Folder Include="AQ\Queues\" />
+    <Folder Include="AQ\Queue Tables\" />
+    <Folder Include="Pluggable Databases\" />
+    <Folder Include="Triggers\" />
+    <Folder Include="Triggers\Table Triggers" />
+    <Folder Include="Triggers\View Triggers" />
+    <Folder Include="Triggers\Schema Triggers" />
+    <Folder Include="Triggers\Database Triggers" />
+    <Folder Include="Indexes\" />
+    <DBRefs Include="Database References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <DBRef Include="Database References\HR.PDBSAMPLE\">
+      <ConnectionString>DATA SOURCE=PDBSAMPLE;USER ID=HR</ConnectionString>
+      <IsDefault>true</IsDefault>
+    </DBRef>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Indexes\HR.DEPARTMENTS.Index.DEPT_LOCATION_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.EMPLOYEES.Index.EMP_DEPARTMENT_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.EMPLOYEES.Index.EMP_EMAIL_UK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.EMPLOYEES.Index.EMP_JOB_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.EMPLOYEES.Index.EMP_MANAGER_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.EMPLOYEES.Index.EMP_NAME_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.JOB_HISTORY.Index.JHIST_DEPARTMENT_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.JOB_HISTORY.Index.JHIST_EMPLOYEE_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.JOB_HISTORY.Index.JHIST_JOB_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.LOCATIONS.Index.LOC_CITY_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.LOCATIONS.Index.LOC_COUNTRY_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indexes\HR.LOCATIONS.Index.LOC_STATE_PROVINCE_IX.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Procedures\HR.ADD_JOB_HISTORY.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Procedures\HR.SECURE_DML.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequences\HR.DEPARTMENTS_SEQ.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequences\HR.EMPLOYEES_SEQ.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequences\HR.LOCATIONS_SEQ.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.COUNTRIES.FK.COUNTR_REG_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.COUNTRIES.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.DEPARTMENTS.FK.DEPT_LOC_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.DEPARTMENTS.FK.DEPT_MGR_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.DEPARTMENTS.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.EMPLOYEES.FK.EMP_DEPT_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.EMPLOYEES.FK.EMP_JOB_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.EMPLOYEES.FK.EMP_MANAGER_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.EMPLOYEES.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.JOBS.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.JOB_HISTORY.FK.JHIST_DEPT_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.JOB_HISTORY.FK.JHIST_EMP_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.JOB_HISTORY.FK.JHIST_JOB_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.JOB_HISTORY.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.LOCATIONS.FK.LOC_C_ID_FK.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.LOCATIONS.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\Relational Tables\HR.REGIONS.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Triggers\Table Triggers\HR.EMPLOYEES.Trigger.SECURE_EMPLOYEES.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Triggers\Table Triggers\HR.EMPLOYEES.Trigger.UPDATE_JOB_HISTORY.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Views\Relational Views\HR.EMP_DETAILS_VIEW.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

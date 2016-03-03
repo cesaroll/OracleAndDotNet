@@ -1,0 +1,3 @@
+-- ****** Object: Index HR.EMP_EMAIL_UK Script Date: 3/2/2016 6:39:58 PM ******
+  CREATE UNIQUE INDEX "EMP_EMAIL_UK" ON "EMPLOYEES" ("EMAIL")
+  NOLOGGING;
