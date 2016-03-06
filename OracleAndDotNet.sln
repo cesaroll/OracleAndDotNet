@@ -7,6 +7,8 @@ Project("{218574D1-FF94-4B95-8577-A6D58C11C315}") = "HR", "HR\HR.oradbproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSample", "HRSample\HRSample.csproj", "{ADF09EF1-C6C7-442F-9953-81054B0C49AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallEF", "InstallEF\InstallEF.csproj", "{08A5F467-DE77-4653-A53B-F7733A2CC531}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF09EF1-C6C7-442F-9953-81054B0C49AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A5F467-DE77-4653-A53B-F7733A2CC531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A5F467-DE77-4653-A53B-F7733A2CC531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A5F467-DE77-4653-A53B-F7733A2CC531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A5F467-DE77-4653-A53B-F7733A2CC531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
